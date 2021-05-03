@@ -1,8 +1,91 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why we are doing AltCampus?</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style-sheet/style.css">
+    <script src="https://kit.fontawesome.com/bfdf924193.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a class="logo" href="#">
+          <img src="assets/media/logo.png" alt="logo">
+        </a>
+        <div class="icons flex">
+          <img src="assets/icons/bell.svg" alt="bell-icon">
+          <p>Sarah Jone</p>
+           <img src="assets/icons/user.svg" alt="user-icon">
+        </div>
+      </div>
+    </header>
+    <div class="container flex-main">
+      <aside>
+        <div class="small-box">
+          <div class="aside-sec ">
+            <div>
+              <div class="bar">
+                <img src="assets/icons/dashboard.svg" alt="dashboard">
+                <p>Dashboard</p>
+              </div>
+              <div class="bar border">
+                <img  src="assets/icons/article.svg" alt="article">
+                <p>Article</p>
+              </div>
+              <div class="bar">
+                <img src="assets/icons/analytics.svg" alt="analytics">
+                <p>Analytics</p>
+              </div>
+              <div class="bar">
+                <img src="assets/icons/inbox.svg" alt="inbox">
+                <p>Inbox</p>
+              </div>
+              <div class="bar">
+                <img src="assets/icons/setting.svg" alt="setting">
+                <p>Setting</p>
+              </div>
+            </div>
+              <div class="bar bar-white">
+                <img src="assets/icons/log-out.svg" alt="logout">
+                <p>Log Out</p>
+              </div>
+          </div>
+        </div>
+      </aside>
+      <main>
+       <div class="big-box">
+        <article class="article">  
+          <div class="article-image">
+            <img src="./assets/media/01.png" alt="article image">
+          </div>
+          <div class="content">
+            <h1>Why we are doing AltCampus?</h1>
+            <p>
+              AltCampus is an alternative to college that you wish existed, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis hic minima quae fuga culpa? Repellat earum consequuntur
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis laboriosam illo dignissimos veniam provident beatae et accusantium incidunt accusamus nihil atque excepturi  
+            </p>
+            <div class="btn-more">
+            <p>Read More</p>
+            </div>
+          </div>
+        </article>
+       </div>  
+      </main>  
+    </div>
+    <footer class="footer">
+      <div class="container bottom-flex">
+        <small class="copy-right">&copy;AltCampus</small>
+        <nav class="bottom-nav">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+        </nav>    
+      </div>
+    </footer>    
+  </body>
+</html>
